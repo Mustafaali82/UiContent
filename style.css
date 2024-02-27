@@ -8,10 +8,11 @@
 
 .one {
     display: flex;
-    padding: 0 120px;
+    padding: 0 150px;
     background-image: url(Assets/main-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    gap: 60px;
 }
 
 .one-box-image img {
@@ -21,6 +22,7 @@
 
 header {
     padding-top: 40px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -70,3 +72,37 @@ header {
     color: rgb(255, 110, 48);
     transition: .3s;
 }
+
+.one-heading span {
+    padding: 0;
+    font-size: 12px;
+    color: rgb(116, 143, 181);
+}
+
+.one-heading span:hover {
+    color: rgb(116, 143, 181);
+}
+
+.one-heading h1 {
+    font-size: 68px;
+    font-family: "Poppins", sans-serif;
+    color: #272E35;
+    font-weight: 600;
+    line-height: 75px;
+    margin-top: 20px;
+}
+
+.one-heading p {
+    font-size: 18px;
+    color: rgb(110, 117, 124);
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.one-heading img{
+    margin-top: 20px;
+}
+
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
