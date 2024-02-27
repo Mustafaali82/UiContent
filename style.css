@@ -50,7 +50,6 @@ header {
     min-width: 243px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    padding: 0 23px;
     font-size: 16px;
     color: black;
     margin-left: 18px;
@@ -60,8 +59,17 @@ header {
 }
 
 .dropdown-content p {
-    margin-bottom: 15px;
-    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: pointer;
+}
+
+.dropdown-content p:hover{
+background-color: rgb(255, 110, 48);
+color: white;
+transition: .3s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -155,6 +163,67 @@ header {
     font-family: "Inter", sans-serif;
     line-height: 30px;
     color: rgb(110, 117, 124);
+}
+
+/* Three Section Styling */
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 150px;
+    background-color: #272E35;
+    color: white;
+}
+
+.three h1 {
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    width: 500px;
+    text-align: center;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+
+.three-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.three-box-child {
+    padding: 30px 30px;
+    padding-bottom: 50px;
+    background-color: #1E232B;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 20px;
+}
+
+.three-box-child h3 {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.three-box-child p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: rgb(221, 221, 221);
+    margin-top: 10px;
+}
+
+.three-box-child img {
+    margin-top: 30px;
+    align-self: center;
 }
 
 /* Fonts */
