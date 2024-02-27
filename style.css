@@ -77,7 +77,7 @@ header {
     padding: 0;
     font-size: 12px;
     color: rgb(116, 143, 181);
-    cursor:auto ;
+    cursor: auto;
 }
 
 .one-heading span:hover {
@@ -101,9 +101,63 @@ header {
     margin-top: 20px;
 }
 
-.one-heading img{
+.one-heading img {
     margin-top: 20px;
 }
+
+/* Two Section Styling */
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 150px;
+    flex-direction: column;
+}
+
+.two span {
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color: rgb(116, 143, 181);
+    font-weight: 700;
+}
+
+.two-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.two-box-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+.two-box-child img {
+    width: 200px;
+    align-self: center;
+}
+
+.two-box-child h2 {
+    font-size: 24px;
+    color: rgb(39, 46, 53);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.two-box-child p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+    color: rgb(110, 117, 124);
+}
+
+/* Fonts */
 
 /* font-family: "Inter", sans-serif; */
 /* font-family: "Poppins", sans-serif; */
