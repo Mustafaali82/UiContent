@@ -309,16 +309,60 @@ footer p {
     margin-bottom: 20px;
 }
 
-footer p  span{
+footer p span {
     color: rgb(255, 110, 48);
 }
 
-footer a{
+footer a {
     padding: 10px;
     text-decoration: none;
     color: rgb(110, 117, 124);
-    font-family: "Inter",sans-serif;   
+    font-family: "Inter", sans-serif;
     font-size: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .one {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .two {
+        padding: 20px;
+    }
+
+    .two-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three {
+        padding: 20px;
+    }
+
+    .three-box {
+        flex-direction: column;
+    }
+
+    .four {
+        padding: 20px;
+    }
+
+    .four-box-two img {
+        width: 100%;
+    }
+
+    .three h1 {
+        width: 100%;
+    }
+
+    .one-box span {
+        display: none;
+    }
+
+    .four-box {
+        flex-direction: column;
+    }
 }
 
 /* Fonts */
