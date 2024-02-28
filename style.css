@@ -278,7 +278,7 @@ header {
     line-height: 30px;
 }
 
-.four-box-two{
+.four-box-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,13 +286,39 @@ header {
     padding-top: 80px;
 }
 
-.four-box-two img{
+.four-box-two img {
     margin-top: 40px;
 }
 
-.four-box-two h1{
+.four-box-two h1 {
     font-size: 50px;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+/* Footer Section STyling */
+
+footer {
+    text-align: center;
+    padding: 50px 150px;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: rgb(110, 117, 124);
+    margin-bottom: 20px;
+}
+
+footer p  span{
+    color: rgb(255, 110, 48);
+}
+
+footer a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(110, 117, 124);
+    font-family: "Inter",sans-serif;   
+    font-size: 15px;
 }
 
 /* Fonts */
